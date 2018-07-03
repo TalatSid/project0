@@ -1,17 +1,7 @@
-$txtcolor: #ff6666;
-$bordercolor: #000000;
+$txtcolor: #ff6666
 
 /*Style for font in heading and list*/
 h1, ol  {
         color: $txtcolor;
         align: center;
-    }
-
-/*Style for Image*/
-img {
-      max-width: 40%;
-      height: auto;
-      border-color: $bordercolor;
-      border-style: solid;
-      border-width: 2px;
     }
