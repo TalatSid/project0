@@ -1,0 +1,72 @@
+$txtcolor: #ff6666;
+$bordercolor: #000000;
+body {
+      background-color: #867979;
+      font-family: "Have Heart", Times;
+      }
+h1, ol  {
+        color: #ff6666;
+        align: center;
+    }
+
+img {
+      max-width: 40%;
+      height: auto;
+      border-color: #000000;
+      border-style: solid;
+      border-width: 2px;
+    }
+
+.table {
+      border-collapse: collapse;
+      border: 2px solid #000000;
+    }
+
+.txt {
+      color: #ff6666;
+    }
+
+.linkstyle {
+  font-family: cursive;
+  font-weight:bold;
+  font-size: 14;
+  color: #ff6666;
+  border-bottom: solid;
+  border-color:#ff6666;
+}
+
+.half1 {
+  display:flex;
+}
+
+.half2 {
+flex: 50%
+}
+
+#supimg{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+#suptxt {
+  position: relative;
+      color: #ffffff;
+}
+
+#tr {
+      border-collapse: collapse;
+      border: 2px solid #000000;
+    }
+
+@media (hover: hover) {
+  a:hover {
+    opacity: 0.5;
+          }
+    }
+
+@media (resolution: 220dpi) {
+      body {
+        background-color: #ffff66;
+              }
+        }
