@@ -9,3 +9,5 @@ The initial page serves as a window to my personality and the idea of a tool I f
 I used bootstrap to align the images on first page side by side, although I could do better in sizing them.  
 
 I used a style sheet with multiple selectors. 
+
+I had missed creating the sass file originally. I created one at the last min just for the purpose of demostration
