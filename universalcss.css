@@ -1,14 +1,16 @@
-$txtcolor: #ff6666;
-$bordercolor: #000000;
+/*Style for body*/
 body {
       background-color: #867979;
       font-family: "Have Heart", Times;
       }
+
+/*Style for font in heading and list*/
 h1, ol  {
         color: #ff6666;
         align: center;
     }
 
+/*Style for Image*/
 img {
       max-width: 40%;
       height: auto;
@@ -17,15 +19,18 @@ img {
       border-width: 2px;
     }
 
+/*Style for data table*/
 .table {
       border-collapse: collapse;
       border: 2px solid #000000;
     }
 
+/*Style for Heading type of text*/
 .txt {
       color: #ff6666;
     }
 
+/*Style for Links*/
 .linkstyle {
   font-family: cursive;
   font-weight:bold;
@@ -35,36 +40,41 @@ img {
   border-color:#ff6666;
 }
 
+/*Class for viewport division layout - rows*/
 .half1 {
   display:flex;
 }
 
+/*Class for viewport division layout - columns*/
 .half2 {
 flex: 50%
 }
 
+/*id for image usae in a corner*/
 #supimg{
     position: absolute;
     top:0px;
     right:0px;
 }
 
+/*id for Paragraph styling*/
 #suptxt {
   position: relative;
       color: #ffffff;
 }
 
+/*table layout styling*/
 #tr {
       border-collapse: collapse;
       border: 2px solid #000000;
     }
-
+/*meta input to get hover=true or false of image*/
 @media (hover: hover) {
   a:hover {
     opacity: 0.5;
           }
     }
-
+/*meta input to get resolution of screen*/
 @media (resolution: 220dpi) {
       body {
         background-color: #ffff66;
